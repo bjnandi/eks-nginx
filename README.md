@@ -9,3 +9,6 @@
 7) kubectl  delete service my-nginx-service
 8) kubectl delete -f nginx.yaml 
 9) eksctl delete cluster --name basic-cluster
+
+Installing dependency for kubernetes
+Reference = https://www.stacksimplify.com/aws-eks/eks-cluster/install-aws-eksctl-kubectl-cli/
