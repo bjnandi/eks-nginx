@@ -3,12 +3,12 @@ kind: ClusterConfig
 
 metadata:
   name: basic-cluster
-  region: us-east-1
+  region: ap-south-1
 
 nodeGroups:
   - name: ng-1
     instanceType: t2.micro # this is free tier
-    desiredCapacity: 2
+    desiredCapacity: 1
     privateNetworking: false
     ssh:
       allow: true
